@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*  {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background: #F3F2F5;
+}
+
+.hero-section {
+  width: 100%;
+  height: fit-content
+}
+
+.hero-div {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+/* .hero-div-div {
+  height: 40vh;
+} */
+
+.my-btn {
+  border-radius: 15px;
+}
+
+.sec-2 {
+  background: url("sec-2-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.last-sec {
+  height: 100px;
+  width: 100%;
+}
+
+.form {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .hero-div {
+    align-items: flex-start;
+    height: fit-content;
+  }
+
+  .hero-div-div {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .product-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
